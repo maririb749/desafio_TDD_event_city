@@ -1,8 +1,11 @@
 package com.devsuperior.demo.dto;
 
+import java.io.Serializable;
+
 import com.devsuperior.demo.entities.City;
 
-public class CityDTO {
+public class CityDTO implements Serializable{
+	private static final long serialVersionUID = 1L;
 	
 	private Long id;
 	private String name;
